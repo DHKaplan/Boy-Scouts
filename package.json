@@ -1,0 +1,74 @@
+{
+    "author": "WA1OUI",
+    "dependencies": {
+        "pebble-clay": "^1.0.2"
+    },
+    "keywords": [],
+    "name": "boy-scout",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Boy Scouts",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "DATE_FORMAT_KEY",
+            "BT_VIBRATE_KEY",
+            "LOW_BATTERY_KEY"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Boy_Scout_menu_icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_MENU_ICON",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Boy Scout Logo.png",
+                    "name": "IMAGE_BOY_SCOUT_LOGO",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/Roboto-Condensed.ttf",
+                    "name": "FONT_ROBOTO_CONDENSED_21",
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Roboto-Condensed.ttf",
+                    "name": "FONT_ROBOTO_CONDENSED_25",
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[:0-9]",
+                    "file": "fonts/Roboto-Bold.ttf",
+                    "name": "FONT_ROBOTO_BOLD_SUBSET_40",
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[:0-9]",
+                    "file": "fonts/Roboto-Bold.ttf",
+                    "name": "FONT_ROBOTO_BOLD_SUBSET_49",
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/HelveNeuLig.ttf",
+                    "name": "FONT_HELV_NEW_LIGHT_20",
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "add488cc-4b41-4530-a49b-7d08b001e56e",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "3.0.0"
+}
