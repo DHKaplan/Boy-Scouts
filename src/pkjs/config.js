@@ -82,7 +82,7 @@ module.exports = [
             },
             {
                 "type": "text",
-                "defaultValue": "Boy Scout Logo By WA1OUI V4.1"
+                "defaultValue": "Boy Scout Logo By WA1OUI V4.2"
             }
         ]
     }
